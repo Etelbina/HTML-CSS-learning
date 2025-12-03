@@ -1,1 +1,211 @@
+<body>
+      <h1> Aprendiendo HTML </h1>
+      <h2> Bievenido </h2>
+      <p> Sean todos bienvenidos a este experimento para aprender a escribir una página web con código. </p>
+      <h2> Acompañame en esta aventura </h2>
+      <p> Durante el recorrido habrá peligros, errores, turbulencias y muccha magia. <strong> ¡Aquí todo puede suceder! </strong> </p>
+      <p> <em> ¿¿R-U ready?? </em> </p>
+      <p> Podemos hacer listas de todo tipo. Observa con atención!!!!</p>
+      <h2> Intentando hacer listas </h2>
+      <h3> Lista simple </h3>
+         <ul>
+            <li> Primero </li>
+            <li> Segundo </li>
+            <li> Tercero </li>
+         </ul>
+         <ul>
+            <li type="circle"> Primero </li>
+            <li type="square"> Segundo </li>
+            <li type="disc"> Tercero </li>
+         </ul>
+         <dl>
+            <dt> Primero </dt>
+               <dd> Menos <a href="https://www.nadamasfoto.com/"> importante </a> 1 </dd>
+            <dt> Segundo </dt>
+               <dd> Menos importante 2 </dd>
+            <dt> Tercero </dt>
+               <dd> Menos importante 3 </dd>
+         </dl>
+      <h3> Lista numerada </h3>
+         <ol>
+            <li value="1"> Primero </li>
+            <li> Segundo </li>
+            <li> Tercero </li>
+         </ol>
+         <ol>
+            <li value="20"> Primero </li>
+            <li> Segundo </li>
+            <li> Tercero </li>
+         </ol>
+      <h3> Lista dentro de lista </h3>
+         <h4> Sub lista </h4>
+            <ol>
+              <li value="1"> Primero </li>
+              <li> Segundo </li>
+               <li> Tercero </li>
+                  <ul>
+                     <li type="disc"> Menos importante 1 </li>
+                     <li type="disc"> Menos importante 2 </li>
+                     <li type="disc"> Menos importante 3 </li>
+                  <ul>   
+           </ol>
+         <h4> Lista con puntos simple </h4>
+            <ol>
+               <li value="1"> Primero </li>
+                  <ul> 
+                     <li type="disc"> Menos importante 1 </li>
+                     <li type="disc"> Menos importante 2 </li>
+                     <li type="disc"> Menos importante 3 </li>
+                  </ul>
+               <li> Segundo </li>
+                  <ul> 
+                     <li type="disc"> Menos importante 1 </li>
+                     <li type="disc"> Menos importante 2 </li>
+                     <li type="disc"> Menos importante 3 </li>
+                  </ul>
+               <li> Tercero </li>
+                  <ul> 
+                     <li type="disc"> Menos importante 1 </li>
+                     <li type="disc"> Menos importante 2 </li>
+                     <li type="disc"> Menos importante 3 </li>
+                  </ul>   
+            </ol>
+         <h4> Lista con puntos compleja </h4>
+            <ol>
+               <li value="1"> Primero </li>
+                  <ul type=none> 
+                     <li><span> 1.1 </span> Primero </li>
+                     <li><span> 1.2 </span> Segundo </li>
+                     <li><span> 1.3 </span> Tercero </li>
+                  </ul>
+               <li> Segundo </li>
+                  <ul type=none> 
+                     <li><span> 2.1 </span> Primero </li>
+                     <li><span> 2.2 </span> Segundo </li>
+                     <li><span> 2.3 </span> Tercero </li>
+                  </ul>
+               <li> Tercero </li>
+                  <ul type=none> 
+                     <li><span> 3.1 </span> Primero </li>
+                     <li><span> 3.2 </span> Segundo </li>
+                     <li><span> 3.3 </span> Tercero </li>
+                  </ul> 
+            </ol>
+         <h4> Lista con incisos </h4>
+            <ol type="A">
+               <li> Primero </li>
+                  <ul type=none> 
+                     <li><span> a.1 </span> Primero </li>
+                     <li><span> a.2 </span> Segundo </li>
+                     <li><span> a.3 </span> Tercero </li>
+                  </ul>
+               <li> Segundo </li>
+                  <ul type=none> 
+                     <li><span> b.1 </span> Primero </li>
+                     <li><span> b.2 </span> Segundo </li>
+                     <li><span> b.3 </span> Tercero </li>
+                  </ul>
+               <li> Tercero </li>
+                  <ul type=none> 
+                     <li><span> c.1 </span> Primero </li>
+                     <li><span> c.2 </span> Segundo </li>
+                     <li><span> c.3 </span> Tercero </li>
+                  </ul>  
+            </ol>   
 
+      <form action="/maichimp" method=get enctype="multipart/form-data">
+         <h2> Formulario de ejercicio 1 </h2>
+         <p> ¡Bien hecho! Es hora de mirar tu resultado. Rellena el siguiente formulario para poder evaluar tus respuestas </p>
+         <label for=”nombre”> Nombre: </label><br>
+            <input name="nombre" type="text" value= ><br>
+         <label for=”opinion”> ¿Te gusstó el ejercicio?: </label><br>
+            <input name="opinion" type="radio" checked="checked" value=si/> Sí <br>
+            <input name="opinion" type="radio" checked="checked" value=no/> No <br>
+         <label for=”comentario”> ¿Qué parte te pareció la más complicada de resolver?: </label><br>
+            <textarea name="comentario" cols="50" rows="5" value= ></textarea><br>
+         <label for=”ejercicio”> Déjame tu respuesta en formato PDF para revisarla: </label><br>
+            <input name="ejercicio" type="file" accept="pdf" value= ><br>
+         <label for=”curso”> Selecciona tu curso y nivel: </label><br>
+            <select>
+               <optgroup label="Curso 1">
+                  <option value="Nivel 1"> Nivel 1.1 </option>
+                  <option value="Nivel 2"> Nivel 1.2 </option>
+                  <option value="Nivel 2"> Nivel 1.3 </option>
+               </optgroup>
+               <optgroup label="Curso 2">
+                  <option value="Nivel 1"> Nivel 1.1 </option>
+                  <option value="Nivel 2"> Nivel 2.2 </option>
+                  <option value="Nivel 2"> Nivel 2.3 </option>
+               </optgroup>
+               <optgroup label="Curso 3">
+                  <option value="Nivel 1"> Nivel 3.1 </option>
+                  <option value="Nivel 2"> Nivel 3.2 </option>
+                  <option value="Nivel 2"> Nivel 3.3 </option>
+               </optgroup>
+            </select><br>
+         <label for=”servicio”> ¿Qué tema te interesa aprender a continuación?: </label><br>
+            <input name="servicio" type="checkbox" checked="checked" value="web" /> Web <br>
+            <input name="servicio" type="checkbox" checked="checked" value="branding"/> Branding <br>
+            <input name="servicio" type="checkbox" checked="checked" value="estrategia"/> Estrategia <br>
+         <label for=”contraseña”> Escribe tu contraseña: </label><br>
+            <input name="contraseña" type="password" value= ><br>
+         <input type="submit" value="Enviar">
+      </form>
+
+     <h2> Ahora intentemos una tabla </h2>
+      <table>
+         <caption><strong> Mi primera tabla </strong></caption>
+        <thead>
+         <tr>
+            <th> CATEGORÍA </th>
+            <th> DESCRIPCIÓN </th>
+            <th> COSTO </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+            <td rowspan="3"> Identidad de marca </td>
+            <td> Diseño de logo </td>
+            <td rowspan="3"> $4,000 </td>
+         </tr>
+         <tr><td> Diseño de ficha y manual </td></tr>
+         <tr><td> Diseño de y manual </td></tr>
+         <tr>
+            <td rowspan="2"> Sitio web </td>
+            <td> Desarrollo de sitio </td>
+            <td rowspan="2"> $5,000 </td>
+         <tr><td> Diseño de sitio </td></tr>
+         </tr>
+         <tr>
+            <td rowspan="2"> Estrategia </td>
+            <td> Estrategia de posicionamiento </td>
+            <td rowspan="2"> $3,000 </td>
+         </tr>
+            <tr><td> Estrategia de contenidos </td><tr>
+        </tbody>
+        <tfoot>
+         <tr><td colspan="3"><strong><center> TOTAL </center></strong></td></tr>
+         <tr>
+            <td></td>
+            <td><strong> Cupon de descuento </strong></td>
+            <td> -10% </td>
+         </tr>
+         <tr>
+            <td></td>
+            <td><strong> Total </strong></td>
+            <td><strong> $10,800 </strong></td>
+         </tr>
+        </tfoot>
+      </table>
+
+      <h2> Continuemos con las imágenes </h2>
+      <img src="ficha-de-marca.png" alt="Ficha de marca" width="700" height="400" usemap="#ficha"/>
+         <map name="ficha">
+            <area shape="rect" coords="40,80,180,250" href="https://www.estrategiadigitalvictoria.com/servicios/identidad-de-marca#h.z7q7at9aiayk" alt="Moodboard"/>
+            <area shape="rect" coords="260,91,430,180" href="https://www.estrategiadigitalvictoria.com/servicios/identidad-de-marca#h.jea2wcg0neti" alt="Logo"/>
+            <area shape="rect" coords="510,90,655,220" href="https://www.estrategiadigitalvictoria.com/servicios/identidad-de-marca#h.6wwj6a6u9osy" alt="Elementos"/>
+            <area shape="circle" coords="100,300,30" href="https://www.estrategiadigitalvictoria.com/servicios/estrategia-digital#h.gkb3ue65wkt7" alt="Colores"/>
+            <area shape="circle" coords="350,301,30" href="https://www.estrategiadigitalvictoria.com/servicios/estrategia-digital#h.fd6et98cx4n7" alt="Tipografías"/>
+            <area shape="circle" coords="570,302,30" href="https://www.estrategiadigitalvictoria.com/servicios/estrategia-digital#h.fq08ynrasni" alt="Fotos"/>
+      <img src="https://i.pinimg.com/236x/76/9e/6c/769e6c71b1bf586b7285f74e6ca01557.jpg" alt="Mi foto" >
+   </body>
