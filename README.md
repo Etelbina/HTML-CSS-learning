@@ -10,9 +10,12 @@ At 2022 I learned HTML and CSS with Google Activate and Openclassrooms courses.
 - How to publish a website
 - How to write a proper web page
 
+See [HTML exercise](HTML_exercise.html)
+
 ### Build Your First Web Pages With HTML and CSS
 - Introduction to HTML and CSS
 - Create HTML text elements
 - Structure an entire page
 - Spice up your content with CSS
 
+See [CSS exercise](original.html)
