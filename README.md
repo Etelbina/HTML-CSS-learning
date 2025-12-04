@@ -22,4 +22,4 @@ Course content:
 - Structure an entire page
 - Spice up your content with CSS
 
-See [CSS exercise](My_music_collections/index.html) 2025 update
+See [CSS exercise](My_music_collections/index.html) 2025 update.
