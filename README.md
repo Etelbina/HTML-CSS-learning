@@ -3,7 +3,7 @@ My first programming learning at 2022
 
 In 2022 I learned HTML and CSS with courses from Google Activate and Openclassrooms.\
 I saved the code but never uploaded it, so now in 2025 I'll add it to my GitHub to make it part of my portfolio.\
-With my current knowledge, I will use the version control flow properly and fix any errors I may find.
+With my current knowledge, I will use the version control flow properly using VSCode and my terminal, and fixing any errors I may find.
 
 ### Introduction to Web Development: HTML-CSS on Google Activate
 Course content:
