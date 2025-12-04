@@ -17,3 +17,5 @@ See [HTML exercise](HTML_exercise.html)
 - Create HTML text elements
 - Structure an entire page
 - Spice up your content with CSS
+
+See [CSS exercise](My_music_collections/index.html)
