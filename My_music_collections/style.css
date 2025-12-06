@@ -6,14 +6,14 @@
     box-sizing: border-box;
 }
 
-/*
-
+/* General Styles */
 body {
 	background-color: #F6D9D5;
 	width: 300px;
 	margin: auto;
 }
 
+/*
 .collections {
 	background-color: #FFF;
 	margin: 20px;
