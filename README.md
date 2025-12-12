@@ -17,17 +17,17 @@ Course content:
 ![HTML exercise](images/htmlexercise.jpg)
 ### See [HTML exercise](HTML_exercise.html) 2025 update.
 
-Project content:
-Text tags and atributes
-Lists tags and atributes
-Forms tags and atributes
-Table tags and atributes
-Images tags and atributes
+Project content:\
+Text tags and atributes\
+Lists tags and atributes\
+Forms tags and atributes\
+Table tags and atributes\
+Images tags and atributes\
 
-2025 Changes:
-I added metadata to the head.
-I created a new image for the clickable areas.
-I fixed the areas to click in the immage
+2025 Changes:\
+I added metadata to the head.\
+I created a new image for the clickable areas.\
+I fixed the areas to click in the immage\
 
 ## Build Your First Web Pages With HTML and CSS
 Course content:
@@ -39,15 +39,15 @@ Course content:
 ![CSS exercise](images/cssexercise.jpg)
 ### See [CSS exercise](My_music_collections/index.html) 2025 update.
 
-Project content:
-Document outline
-Document structure
-Semantic HTML
-Lists tags and atributes
-Links
+Project content:\
+Document outline\
+Document structure\
+Semantic HTML\
+Lists tags and atributes\
+Links\
 
-2025 Changes:
-I added metadata to the head
-I fixed the semantic HTML
-I changed the lists
-I updated the broken links
+2025 Changes:\
+I added metadata to the head\
+I fixed the semantic HTML\
+I changed the lists\
+I updated the broken links\
