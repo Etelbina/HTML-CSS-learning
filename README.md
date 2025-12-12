@@ -13,6 +13,8 @@ Course content:
 - How to publish a website
 - How to write a proper web page
 
+
+![HTML exercise](images/htmlexercise.jpg)
 ### See [HTML exercise](HTML_exercise.html) 2025 update.
 
 Project content:
@@ -34,6 +36,7 @@ Course content:
 - Structure an entire page, semantic HTML
 - Apply CSS to HTML elements
 
+![CSS exercise](images/cssexercise.jpg)
 ### See [CSS exercise](My_music_collections/index.html) 2025 update.
 
 Project content:
