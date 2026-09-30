@@ -58,7 +58,8 @@ a {
 	font-size: 13px;
 }
 
-a:hover {
+a:hover,
+a:focus-visible {
 	font-weight: bold;
 	font-size: 15px;
 }
