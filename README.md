@@ -18,7 +18,7 @@ Now in 2026, I'm revisiting this project to learn how to work with AI in the loo
 
 ![HTML exercise](images/htmlexercise.jpg)
 
-### See [HTML exercise](HTML_exercise.html), updated in 2025.
+### See [HTML exercise](HTML_exercise.html), updated in 2026.
 
 **Project content**
 
@@ -51,7 +51,7 @@ Now in 2026, I'm revisiting this project to learn how to work with AI in the loo
 
 ![CSS exercise](images/cssexercise.jpg)
 
-### See [CSS exercise](My_music_collections/index.html), updated in 2025.
+### See [CSS exercise](My_music_collections/index.html), updated in 2026.
 
 **Project content**
 
