@@ -1,69 +1,84 @@
-/* CSS reset */
-* {
-	margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* Variables _________________________________________ */
+:root {
+	--color-page-background: #F6D9D5;
+	--color-surface: #FFF;
+	--color-list-background: #FFF5F4;
+	--color-heading-background: #DDF3F6;
+	--color-black: #000;
+	--color-border: #ccc;
+	--color-link-visited: #D1978F;
+	--font-heading-primary: 'Gloria Hallelujah', cursive;
+	--font-heading-secondary: 'Amatic SC', cursive;
+	--font-list: 'Dosis', sans-serif;
 }
 
-/* General Styles */
+/* Reset _________________________________________ */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* Global styles _________________________________________ */
 body {
-	background-color: #F6D9D5;
 	width: 300px;
 	margin: auto;
-}
-
-/* Main box */
-.collections {
-	background-color: #FFF;
-	margin: 20px;
-	padding: 20px;
-	border: 3px solid #000;
-}
-
-h1 {
-	font-family: 'Gloria Hallelujah', cursive;
-	font-size: 20px;
-	text-align: center;
-}
-
-/* List boxes */
-ul {
-	background-color: #FFF5F4;
-	padding: 10px;
-	margin-top: -15px;
-	margin-bottom: 15px;
-	list-style: none;
-	border: 1px solid #ccc;
-	border-top: none;
-}
-
-h2 {
-	font-family: 'Amatic SC', cursive;
-	font-size: 18px;
-	margin: auto;
-	background-color: #DDF3F6;
-	width: 160px;
-	padding: 3px;
-	text-align: center;
-}
-
-li {
-	font-family: 'Dosis', sans-serif;
-	margin-left: 13px;
+	background-color: var(--color-page-background);
 }
 
 a {
-	text-decoration: none;
-	color: #000;
+	color: var(--color-black);
 	font-size: 13px;
+	text-decoration: none;
 }
 
 a:hover,
 a:focus-visible {
-	font-weight: bold;
 	font-size: 15px;
+	font-weight: bold;
 }
 
 a:visited {
-	color: #D1978F;
+	color: var(--color-link-visited);
+}
+
+/* Page layout _________________________________________ */
+.collections {
+	margin: 20px;
+	padding: 20px;
+	border: 3px solid var(--color-black);
+	background-color: var(--color-surface);
+}
+
+/* Headings */
+h1 {
+	font-family: var(--font-heading-primary);
+	font-size: 20px;
+	text-align: center;
+}
+
+h2 {
+	width: 160px;
+	margin: auto;
+	padding: 3px;
+	background-color: var(--color-heading-background);
+	font-family: var(--font-heading-secondary);
+	font-size: 18px;
+	text-align: center;
+}
+
+/* Lists */
+ul {
+	margin-top: -15px;
+	margin-bottom: 15px;
+	padding: 10px;
+	border: 1px solid var(--color-border);
+	border-top: none;
+	background-color: var(--color-list-background);
+	list-style: none;
+}
+
+li {
+	margin-left: 13px;
+	font-family: var(--font-list);
 }
