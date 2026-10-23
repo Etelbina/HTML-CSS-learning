@@ -1,10 +1,12 @@
 # HTML and CSS Learning
 
-My first steps in programming began in 2022. I took my first HTML course with Google Activate and studied HTML and CSS with OpenClassrooms. I learned to use a text editor for the first time, choosing VS Code, though learning the full developer environment took longer.
+This project contains two exercises: an HTML page demonstrating basic HTML elements, and a music page that helps students find study audio by purpose.
+
+My first steps in programming began in 2022. I took my first HTML course with Google Activate and studied HTML and CSS with OpenClassrooms. I learned to use a text editor, starting with VS Code.
 
 I continued learning. In 2025, I uploaded these projects from a folder on my computer to GitHub. By then, I had learned to use the terminal and version control, which I used to manage my changes and document where I started.
 
-Now in 2026, I'm revisiting this project to learn how to work with AI in the loop and include it as part of my development process.
+Now in 2026, I’m revisiting this project to learn how to work with AI in the loop. I used AI to review the code and suggest changes. I reviewed those suggestions myself and checked the code with HTML and CSS validators. AI supported my review process; it is not a feature of the site.
 
 ## Introduction to Web Development: HTML-CSS on Google Activate
 
